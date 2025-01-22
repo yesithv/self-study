@@ -1,5 +1,8 @@
 package yesithv.oop.inheritance;
 
+import yesithv.oop.inheritance.subclass.Cat;
+import yesithv.oop.inheritance.subclass.Duck;
+
 /**
  * INHERITANCE:
  * It is the mechanism in Java by which one class is allowed to inherit the features (fields and methods) of another class
