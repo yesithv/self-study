@@ -1,27 +1,9 @@
-package yesithv.oop.abstraction;
+package yesithv.oop.abstraction.withinterfaces;
 
 /**
  * INTERFACE:
  * It's a complete abstract class, it's used to group related methods with empty bodies
  */
-interface Animal {
-    void animalSound();
-    void run(double velocity);
-}
-
-class Pig implements Animal {
-
-    @Override
-    public void animalSound() {
-        System.out.println("Pig noise Oig Oig Oig ");
-    }
-
-    @Override
-    public void run(double velocity) {
-        System.out.println("Pig velocity = " + velocity);
-    }
-}
-
 public class WithInterfaces {
 
     public static void main(String[] args) {
