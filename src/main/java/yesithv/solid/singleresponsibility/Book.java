@@ -4,10 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * SINGLE RESPONSIBILITY:
- * A class or microservice should only have one responsibility, furthermore, it should have one reason to change
- */
 @Getter
 @Setter
 @AllArgsConstructor
