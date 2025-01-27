@@ -1,4 +1,4 @@
-package yesithv.java8.streams;
+package yesithv.streams;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -41,8 +41,8 @@ public class IntermediateOperations {
         System.out.println("Final Result = " + finalResult);
         finalResult.forEach(s -> System.out.println(s));
 
-        https://www.geeksforgeeks.org/stream-in-java/
-        https://www.digitalocean.com/community/tutorials/java-8-stream
+        //https://www.geeksforgeeks.org/stream-in-java/
+        //https://www.digitalocean.com/community/tutorials/java-8-stream
 
     }
 }
