@@ -1,6 +1,8 @@
 package yesithv.solid.interfacesegregation;
 
-public class SimplePrinter implements Printer{
+import yesithv.solid.interfacesegregation.interfaces.Printer;
+
+public class SimplePrinter implements Printer {
 
     @Override
     public void printDocument() {
