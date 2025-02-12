@@ -1,4 +1,4 @@
-package yesithv.java8.lambdaexpressions;
+package yesithv.lambdaexpressions;
 
 public class Test {
 

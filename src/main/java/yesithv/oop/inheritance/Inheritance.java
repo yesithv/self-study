@@ -17,6 +17,6 @@ public class Inheritance {
         Duck duck1 = new Duck();
         duck1.walking();
         duck1.flying();
-        duck1.swiming();
+        duck1.swimming();
     }
 }

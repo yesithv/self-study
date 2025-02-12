@@ -1,4 +1,4 @@
-package yesithv.java8.streams;
+package yesithv.streams;
 
 import java.util.Arrays;
 import java.util.HashSet;

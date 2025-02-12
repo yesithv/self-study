@@ -1,5 +1,9 @@
 package yesithv.solid.interfacesegregation;
 
+import yesithv.solid.interfacesegregation.interfaces.Fax;
+import yesithv.solid.interfacesegregation.interfaces.Printer;
+import yesithv.solid.interfacesegregation.interfaces.Scanner;
+
 public class MultifunctionalPrinter implements Printer, Fax, Scanner {
 
     @Override
