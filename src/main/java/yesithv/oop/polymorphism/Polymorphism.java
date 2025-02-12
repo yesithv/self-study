@@ -7,7 +7,7 @@ package yesithv.oop.polymorphism;
  */
 public class Polymorphism {
     /**
-     * @Override = run-time polymorphism => INHERITANCE
+     * Override = run-time polymorphism => INHERITANCE
      * The method in the subclass must have the same signature as in the superclass.
      * It allows the subclass to modify the inherited methods.
      */

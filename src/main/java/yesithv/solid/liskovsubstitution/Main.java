@@ -12,7 +12,7 @@ public class Main {
         Shape square = new Square(4);
         System.out.println("Square area = " + square.getArea());
 
-        // The regtangle ans Square class now implements the Shape interface, making them interchangeable
+        // The rectangle and Square class now implements the Shape interface, making them interchangeable
         // without altering the correctness of the program
     }
 }

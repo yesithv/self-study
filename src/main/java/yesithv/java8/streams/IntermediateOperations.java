@@ -31,7 +31,7 @@ public class IntermediateOperations {
                 // Transform element to uppercase
                 .map(String::toUpperCase)
                 // Collect the final result into a list
-                .collect(Collectors.toList());
+                .toList();
 
         // Print intermediate Results:
         System.out.println("Intermediate result = ");
@@ -41,8 +41,8 @@ public class IntermediateOperations {
         System.out.println("Final Result = " + finalResult);
         finalResult.forEach(s -> System.out.println(s));
 
-        https://www.geeksforgeeks.org/stream-in-java/
-        https://www.digitalocean.com/community/tutorials/java-8-stream
+        //https://www.geeksforgeeks.org/stream-in-java/
+        //https://www.digitalocean.com/community/tutorials/java-8-stream
 
     }
 }
