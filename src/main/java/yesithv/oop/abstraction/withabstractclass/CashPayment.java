@@ -1,6 +1,6 @@
 package yesithv.oop.abstraction.withabstractclass;
 
-// Subclass2ic class CashPayment extends Payment {
+// The Sub class CashPayment extends Payment {
 public class CashPayment extends Payment {
 
     @Override

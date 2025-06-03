@@ -7,6 +7,7 @@ public abstract class Payment {
     // Abstract method: No concrete implementation
     abstract void makePayment(double amount);
 
+    // its allowed methods with body
     void paymentDetails(String method) {
         System.out.println("Payment method = " + method);
     }
