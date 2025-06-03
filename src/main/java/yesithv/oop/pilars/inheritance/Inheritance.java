@@ -1,7 +1,7 @@
-package yesithv.oop.inheritance;
+package yesithv.oop.pilars.inheritance;
 
-import yesithv.oop.inheritance.subclass.Cat;
-import yesithv.oop.inheritance.subclass.Duck;
+import yesithv.oop.pilars.inheritance.subclass.Cat;
+import yesithv.oop.pilars.inheritance.subclass.Duck;
 
 /**
  * INHERITANCE:

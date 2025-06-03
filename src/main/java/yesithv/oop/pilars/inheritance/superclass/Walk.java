@@ -1,4 +1,4 @@
-package yesithv.oop.inheritance.superclass;
+package yesithv.oop.pilars.inheritance.superclass;
 
 public class Walk {
 

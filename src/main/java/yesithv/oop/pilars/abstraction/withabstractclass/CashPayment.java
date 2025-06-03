@@ -1,4 +1,4 @@
-package yesithv.oop.abstraction.withabstractclass;
+package yesithv.oop.pilars.abstraction.withabstractclass;
 
 // The Sub class CashPayment extends Payment {
 public class CashPayment extends Payment {

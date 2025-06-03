@@ -1,4 +1,4 @@
-package yesithv.oop.abstraction.withabstractclass;
+package yesithv.oop.pilars.abstraction.withabstractclass;
 
 public abstract class Payment {
 

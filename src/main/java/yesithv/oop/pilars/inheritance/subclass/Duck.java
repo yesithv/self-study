@@ -1,8 +1,8 @@
-package yesithv.oop.inheritance.subclass;
+package yesithv.oop.pilars.inheritance.subclass;
 
-import yesithv.oop.inheritance.superclass.Fly;
-import yesithv.oop.inheritance.superclass.Swim;
-import yesithv.oop.inheritance.superclass.Walk;
+import yesithv.oop.pilars.inheritance.superclass.Fly;
+import yesithv.oop.pilars.inheritance.superclass.Swim;
+import yesithv.oop.pilars.inheritance.superclass.Walk;
 
 public class Duck extends Walk implements Fly, Swim {
 

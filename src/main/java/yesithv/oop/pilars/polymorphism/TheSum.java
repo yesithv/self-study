@@ -1,4 +1,4 @@
-package yesithv.oop.polymorphism;
+package yesithv.oop.pilars.polymorphism;
 
 public class TheSum {
 
