@@ -2,10 +2,11 @@ package yesithv.oop.polymorphism;
 
 /**
  * POLYMORPHISM
- * Means "many forms": This allows us tu perform a single action in different ways
- * Its useful for code reusability: reuse attributes and methods of an existing class when you create a new class
+ * Means "many forms": This allows us to perform a single action in different ways
+ * It's useful for code reusability: reuse attributes and methods of an existing class when you create a new class
  */
 public class Polymorphism {
+
     /**
      * Override = run-time polymorphism => INHERITANCE
      * The method in the subclass must have the same signature as in the superclass.
@@ -20,7 +21,7 @@ public class Polymorphism {
      */
     public static void main(String[] args) {
         TheSum sum = new TheSum();
-        System.out.println("sum = " + sum.doTheSum());
+        System.out.println(sum.doTheSum());
         System.out.println("sum = " + sum.doTheSum(2, 4));
         System.out.println("sum = " + sum.doTheSum(2, 4, 5));
         System.out.println("sum = " + sum.doTheSum(1.3, 6.2));
