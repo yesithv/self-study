@@ -1,13 +1,11 @@
 package yesithv.solid.liskovsubstitution;
 
-import lombok.AllArgsConstructor;
 
-@AllArgsConstructor
-public class Square implements Shape {
+public class Square extends Rectangle {
+
     private int side;
 
-    @Override
-    public double getArea() {
-        return side * side;
+    public Square(int side) {
+        super(side, side);
     }
 }

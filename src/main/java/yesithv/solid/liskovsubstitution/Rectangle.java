@@ -1,14 +1,15 @@
 package yesithv.solid.liskovsubstitution;
 
-import lombok.AllArgsConstructor;
-
-@AllArgsConstructor
-public class Rectangle implements Shape {
+public class Rectangle {
 
     private int width;
     private int height;
 
-    @Override
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
     public double getArea() {
         return width * height;
     }
