@@ -8,14 +8,14 @@ package yesithv.solid.interfacesegregation;
 public class Main {
     public static void main(String[] args) {
 
-        // Implement only the methods that matter to us
-        SimplePrinter sp1 = new SimplePrinter();
-        sp1.printDocument();
+        // Implement only the methods that matter to a simple printer: print
+        SimplePrinter simplePrinter = new SimplePrinter();
+        simplePrinter.printDocument();
 
-        // Classes only implement interfaces they use
-        MultifunctionalPrinter mp2 = new MultifunctionalPrinter();
-        mp2.printDocument();
-        mp2.scannerDocument();
-        mp2.faxDocument();
+        // Otherwise multifunctional implements: print, scanner and fax
+        MultifunctionalPrinter multifunctionalPrinter = new MultifunctionalPrinter();
+        multifunctionalPrinter.printDocument();
+        multifunctionalPrinter.scannerDocument();
+        multifunctionalPrinter.faxDocument();
     }
 }
