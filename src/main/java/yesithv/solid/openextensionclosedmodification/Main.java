@@ -7,7 +7,7 @@ import yesithv.solid.openextensionclosedmodification.interfaces.PremiumDiscount;
 import yesithv.solid.openextensionclosedmodification.interfaces.RegularDiscount;
 
 /**
- * OPEN FOR EXTENSION CLOSED FOR MODIFICATION
+ * OPEN FOR EXTENSION CLOSED FOR MODIFICATION:
  * We stop ourselves form modifying existing code and causing potential new bugs
  * One exception: When fixing bugs in existing code
  */
@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
         // 1. Using inheritance:
         Guitar classic = new Guitar("gc-01", 20);
-        // Need to add the flame color to Guitar Class:
+        // Need to add the color to Guitar Class:
         Guitar rock = new RockGuitar("gr-01", 40, "Red");
 
         // 2. Using interfaces:

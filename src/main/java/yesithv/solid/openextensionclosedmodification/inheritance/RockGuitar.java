@@ -8,12 +8,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RockGuitar extends Guitar {
-    private String flameColor;
+    private String color;
 
-    public RockGuitar(String model, int volume, String flameColor) {
+    public RockGuitar(String model, int volume, String color) {
         setModel(model);
         setVolume(volume);
-        setFlameColor(flameColor);
+        setColor(color);
     }
 
 }
