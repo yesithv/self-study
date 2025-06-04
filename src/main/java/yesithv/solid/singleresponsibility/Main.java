@@ -6,7 +6,9 @@ package yesithv.solid.singleresponsibility;
  */
 public class Main {
     public static void main(String[] args) {
-        Book book = new Book("ABC123", "The book of life", "Lorem ipsun text alfe iro inwsqo");
+        Book book = new Book("ABC123", "The book of life", "Lorem ipsun text alfe iro option");
+        book.isWordInText("option");
+        book.replaceWordInText("ipsun", "ipsuM");
         FileManager fileManager = new FileManager();
         fileManager.saveToFile(book);
     }

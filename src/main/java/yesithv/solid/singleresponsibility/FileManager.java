@@ -10,7 +10,7 @@ public class FileManager {
             fileWriter.write("SSN: " + book.getSsn() + "\n");
             fileWriter.write("Name: " + book.getName() + "\n");
             fileWriter.write("Text: " + book.getText() + "\n");
-            System.out.println("Book data saved to file successfully");
+            System.out.println("Book data saved to file successfully, data: " + book);
 
         } catch (IOException e) {
             e.printStackTrace();
