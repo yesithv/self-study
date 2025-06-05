@@ -54,8 +54,7 @@ public class Main {
                 .collect(Collectors.joining());
         System.out.println("result = " + upperResult);
 
-        var sumResult = statusCode.entrySet().stream()
-                .map(Map.Entry::getKey)
+        var sumResult = statusCode.keySet().stream()
                 .filter(integer -> integer != null)
                 .mapToInt(value -> value.intValue())
                 .sum();

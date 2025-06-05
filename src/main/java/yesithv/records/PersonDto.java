@@ -1,11 +1,11 @@
 package yesithv.records;
 
 /**
- * RECORD:
+ * RECORD: ideals for api responses,
  * Immutable data classes
  * For every field: private, final, getter
  * Methods: public constructor, equals, hasCode, ToString
  */
 
-public record Person(String name, Integer salary) {
+public record PersonDto(String name, Integer salary) {
 }

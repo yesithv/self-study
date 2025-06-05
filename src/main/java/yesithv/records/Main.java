@@ -2,9 +2,9 @@ package yesithv.records;
 
 public class Main {
     public static void main(String[] args) {
-        Person p1 = new Person("Jhon", 100);
-        Person p2 = new Person("Jhon", 100);
-        Person p3 = new Person("Martha", 200);
+        PersonDto p1 = new PersonDto("Jhon", 100);
+        PersonDto p2 = new PersonDto("Jhon", 100);
+        PersonDto p3 = new PersonDto("Martha", 200);
 
         // Getters:
         System.out.println("p1 name = " + p1.name());
