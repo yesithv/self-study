@@ -1,4 +1,4 @@
-package yesithv.amadeus;
+package yesithv.algorithms.amadeus;
 
 
 public class Main {

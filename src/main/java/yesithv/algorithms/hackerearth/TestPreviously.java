@@ -1,6 +1,4 @@
-package yesithv.hackerearth;
-
-import java.io.File;
+package yesithv.algorithms.hackerearth;
 
 public class TestPreviously {
     int val = 10;
